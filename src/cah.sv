@@ -81,6 +81,9 @@ function Deck::new(string blackDeckPath, string whiteDeckPath);
         if ($fgets(line, fid))
             whiteCards.push_front(line);
 
+    blackCards.shuffle();
+    whiteCards.shuffle();
+
 endfunction
 
 function void Deck::playBlack;
@@ -89,7 +92,6 @@ function void Deck::playBlack;
 
     $display("%s ", card);
     blackCards.push_back(card);
-    blackCards.shuffle();
 
 endfunction
 
