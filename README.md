@@ -10,6 +10,10 @@ The included Makefile can be used to compile and run the simulation that will ge
 sequences from the included text files. The Makefile commands assume Mentor Graphics QuestaSim&reg;
 is installed on the host system, and is being run on a Linux system. 
 
+Licensing note: The code in this repository is licensed under GPL v3, but all Cards Against Humanity
+content contained in the card text files is owned by Cards Against Humanity LLC and licensed under
+the BY-NC-SA 2.0 Creative Commons license.
+
 #### The Game 
 In case you're unfamiliar, the game is played in rounds, with three or more people.  There are black
 cards and white cards. Each player has ten white cards and starts with 0 black cards.  For each
